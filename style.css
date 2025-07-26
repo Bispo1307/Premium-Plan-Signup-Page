@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --black: #111111;
+    --white: #ffffff;
+
+    --grey: #cbcbcb;
+    --dark-grey: #808080;
+
+    --shadow-black: #1e1e1e;
+    --shadow-red: #551d1d;
+
+    --red: #bd1c1c;
+    --dark-red: #690f0f;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: green;
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    border: 3px solid var(--red);
+    padding: 28px;
+    border-radius: 32px;
+    background: linear-gradient(to top right, var(--black), var(--black), var(--red));
+}
+
+.img-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.img-logo img {
+    width: 100%;
+    max-width: 210px;
+}
+
+.premium-plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 34px;
+}
+
+.premium-plan a {
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--black);
+    font-weight: bold;
+    padding: 4px 18px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.price {
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--white);
+}
+
+.price .value {
+    font-size: 70px;
+    margin-left: 38px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.price .months {
+    margin-left: 8px;
+    color: var(--white);
+}
+
+.info {
+    margin-top: 14px;
+    margin-bottom: 18px;
+}
+
+.info p {
+    margin-bottom: 6px;
+    color: var(--dark-grey);
+    font-size: 14px;
+}
+
+.info span {
+    color: var(--grey);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.descripition {
+    flex-direction: column;
+    margin-bottom: px;
+}
+
+.benefits-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.benefits-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.benefits-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+
+.descripition span {
+    color: var(--dark-grey);
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 12px;
+}
+
+.button-cta button {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    background: linear-gradient(to right, var(--red), var(--dark-red));
+}
+
+.button-cta button:hover {
+    transform: scale(1.05);
+}
+
+.button-cta a {
+    text-decoration: none;
+    font-size: 22px;
+    color: var(--white);
+}
+
+@media (max-width: 320px) {
+    .container {
+        height: 100vh;
+        max-height: 550px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .container {
+        width: 100%;
+        max-width: 300px;
+    }
+}
