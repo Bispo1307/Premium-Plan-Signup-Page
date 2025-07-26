@@ -4,16 +4,6 @@ Este é um projeto de uma **Página de Inscrição para um Plano Premium**, cria
 
 ## 📸 Preview
 
-### Versão Web (MacBook Air)
-
-![Preview MacBook Air](img/Macbook-Air.png)
-
-### Versão Mobile (iPhone 14)
-
-![Preview iPhone 14](img/iPhone-14-(iOS-16).png)
-
-### Design Completo
-
 ![Preview Completo](img/Preview-Card-Price.png)
 
 ---
@@ -66,11 +56,13 @@ Este projeto foi testado e visualizado nas seguintes resoluções:
 - 💻 MacBook Air (1440x900)
 - 📐 Telas grandes e médias usando media queries
 
----
 
-## 📂 Como visualizar localmente
+## 🔗 Acesse
 
-1. Acesse o repositório no GitHub:
+- 📁 Acesse o repositório no GitHub:
 
+  [https://github.com/Bispo1307/Premium-Plan-Signup-Page](https://github.com/Bispo1307/Premium-Plan-Signup-Page)
 
-2. Acesse o site online:
+- 🌐 Acesse o site online:
+
+  [https://bispo1307.github.io/Premium-Plan-Signup-Page/](https://bispo1307.github.io/Premium-Plan-Signup-Page/)
